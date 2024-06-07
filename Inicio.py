@@ -23,7 +23,7 @@ st.write("**Informes Detallados:** Genera informes precisos que proporcionan tra
 st.write("**No ayuda a tener una mayor claridad y facilidad a la hora de revisar datos. con más efetividad")
 
 # Input Data Section
-st.subheader("Ver informacion de algun datos CSV")
+st.subheader("Ver informacion de algun datos CSV ya sea una nomina entre otros")
 uploaded_file = st.file_uploader("Cargue el archivo CSV con los detalles de la nómina:", type=["csv"])
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
